@@ -14,25 +14,25 @@ class DataHandler:
         self.maxCurrent = float(np.max(self.current))
         self.minCurrent = float(np.min(self.current))
     
-    def _getVoltage(self):
+    def getVoltage(self):
         return self.voltage
     
-    def _getCurrent(self):
+    def getCurrent(self):
         return self.current
     
-    def _getDataPoints(self):
+    def getDataPoints(self):
         return self.dataPoints
     
-    def _getMaxVoltage(self):
+    def getMaxVoltage(self):
         return self.maxVoltage
     
-    def _getMinVoltage(self):
+    def getMinVoltage(self):
         return self.minVoltage
     
-    def _getMaxCurrent(self):
+    def getMaxCurrent(self):
         return self.maxCurrent
     
-    def _getMinCurrent(self):
+    def getMinCurrent(self):
         return self.minCurrent
     
     def printDataInfo(self):

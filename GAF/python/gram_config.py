@@ -1,6 +1,7 @@
 class GramConfig:
     # Image settings
     IMAGE_SIZE = 224
+    OUTPUT_FILE_TYPE = 'png'
 
     # Data split options (only active when ENABLE_AUTO_SPLIT is true)
     ENABLE_AUTO_SPLIT = False

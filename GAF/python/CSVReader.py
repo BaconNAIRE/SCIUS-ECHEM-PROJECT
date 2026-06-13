@@ -1,5 +1,5 @@
 import pandas as pd
-from gramConfig import GramConfig
+from gram_config import GramConfig
 from data_handler import DataHandler
 
 class CSVReader:

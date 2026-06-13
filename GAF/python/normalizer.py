@@ -6,11 +6,9 @@ class Normalizer:
         self.normalizedVoltage = None
         self.normalizedCurrent = None
 
-        self.normalize(data_handler)
+        self._normalize(data_handler)
     
-    def normalize(self, data_handler):
-        print("Normalizing data...")
-
+    def _normalize(self, data_handler):
         voltage = data_handler.getVoltage()
         current = data_handler.getCurrent()
         dataPoints = data_handler.getDataPoints()
